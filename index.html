@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webnio</title>
+    <!--css-->
+    <link rel="stylesheet" href="/css/style.css">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-slate-900">
+    <!--navbar-->
+    <nav class="py-10 h-screen bg-bg-opt top-0 left-0 fixed">
+        <di class="flex flex-col items-center h-full">
+
+            <ul class="text-white h-full flex flex-col justify-center items-center space-y-10">
+
+               
+                <li class="text-xl inline-block px-6 py-3"><a class="text-xl active:text-violet-400 block" href="#home"><i class="fa-solid fa-house "></i></a></li>
+
+                <li class="text-xl inline-block px-6 py-3"><a class="text-xl active:text-violet-400 block" href="#service"><i class="fa-solid fa-briefcase"></i></a></li>
+
+                <li class="inline-block  px-6 py-3"><a class="text-xl active:text-violet-400 block" href="#skill"><i class="fa-solid fa-brain"></i></a></li>
+
+                <li class=" inline-block px-6 py-3"><a class="text-xl active:text-violet-400 block" href="#contact"><i class="fa-solid fa-phone "></i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--home-->
+    <section id="home" class="h-screen ml-16">
+        <div class="flex justify-center items-center ml-[0.3rem] h-full">
+                <div class="flex flex-col md:flex-row md:justify-between gap-10 m-20">
+                    <div class="flex flex-col items-center gap-2 md:gap-2 md:mt-16">
+                        <h2 class="text-center text-white text-2xl md:text-4xl font-semibold">WELCOME TO WEBNIO</h2>
+                        <p class="text-center text-white text-base md:text-xl font-normal">Delivering seamless, innovative solutions expertly tailored  to  meet all your diverse and evolving digital needs  with exceptional precision and care.</p>
+                        <a href="#" class="px-6 py-2 rounded-md text-sm text-white bg-sky-700 cursor-pointer focus:bg-sky-500">Download CV</a>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img class="md: w-[600px] md:h-[300px]" src="/image/tailwind.svg" alt="home image">
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <!--service-->
+    <section id="service" class="h-fit md:h-screen  ml-16 p-4 pl-5 flex items-center">
+        <div class="w-[100%] flex gap-4 justify-evenly items-center flex-wrap">
+            <div class="flex flex-col justify-between items-center gap-2 md:w-60 bg-bg-box   p-4 rounded-lg text-white">  
+                <img src="/image/service-1.svg" class="w-48 h-20 " alt="development">
+                <h3 class=" text-center text-xl font-semibold">Pixel-Perfect UI/UX</h3>
+                <p class="text-center text-sm font-medium">We translate your vision into stunning and intuitive user interfaces (UI) that engage and delight your visitors. </p>
+                <a href="#" class="self-center text-sm px-4 py-2 rounded-full bg-slate-800 border hover:bg-transparent focus:bg-inherit transition-all">Craft Your Dream UI/UX</a>   
+            </div>
+            <div class="flex flex-col items-center gap-2 md:w-60 bg-bg-box   p-4 rounded-lg text-white">
+                <img src="/image/service-2.svg" class="w-48 h-20" alt="development">
+                <h3 class=" text-center text-xl font-semibold">Streamlined Develop</h3>
+                <p class="text-center text-sm font-medium">Leverage the power of Tailwind CSS to build modern websites with rapid development and pixel-perfect control. </p>
+                <a href="#" class="text-sm px-4 py-2 rounded-full bg-slate-800 border hover:bg-transparent focus:bg-inherit transition-all">Workflow with Tailwind</a>
+            </div>
+            <div class="flex flex-col items-center gap-2 md:w-60 bg-bg-box   p-4 rounded-lg text-white">
+                <img src="/image/service-3.svg" class="w-48 h-20" alt="development">
+                <h3 class=" text-center text-xl font-semibold">Responsive Design</h3>
+                <p class="text-center text-sm font-medium">We ensure your website looks flawless and functions perfectly across all devices, from desktops to mobile phones.</p>
+                <a href="#" class="text-sm px-4 py-2 rounded-full bg-slate-800 border hover:bg-transparent focus:bg-inherit transition-all">Seamless User Experience</a>
+            </div>
+            <div class="flex flex-col items-center gap-2 md:w-60 bg-bg-box   p-4 rounded-lg text-white">
+                <img src="/image/service-4.svg" class="w-48 h-20" alt="development">
+                <h3 class=" text-center text-xl font-semibold">SEO Integration</h3>
+                <p class="text-center text-sm font-medium">We optimize your website for speed and performance, ensuring a smooth and engaging user experience.</p>
+                <a href="#" class="text-sm px-4 py-2 rounded-full bg-slate-800 border hover:bg-transparent focus:bg-inherit transition-all">Enhance Performance</a>
+            </div>
+        </div>
+    </section>
+
+    <!--skills-->
+    <section id="skill" class="h-fit ml-16 p-6 pl-8">
+        <div class="h-screen flex justify-center items-center">
+            <div class="bg-sky-900 p-12 rounded-lg grid gap-10 md:gap-14 grid-cols-2 md:grid-cols-3">
+                <div class="cursor-pointer hover:-translate-y-4 transition-all">
+                    <img src="/image/html.png" alt="html">
+                </div>
+                <div class="cursor-pointer hover:-translate-y-4 transition-all">
+                    <img src="/image/css.png" alt="css">
+                </div>
+
+                <div class="cursor-pointer hover:-translate-x-4  md:hover:-translate-y-4 transition-all">
+                    <img src="/image/js.png" alt="js">
+                </div>
+                <div class="cursor-pointer hover:translate-x-4  md:hover:-translate-x-4 transition-all">
+                    <img src="/image/atom.png" alt="react">
+                </div>
+
+                <div class="cursor-pointer hover:-translate-x-4 md:hover:scale-125 transition-all">
+                    <img  src="/image/commit-git.png" alt="git">
+                </div>
+
+                <div class="cursor-pointer hover:translate-x-4 transition-all">
+                    <img src="/image/github.png" alt="github">
+                </div>
+                <div class="cursor-pointer hover:translate-y-4 transition-all">
+                    <img src="/image/ui.png" alt="ui/ux">
+                </div>
+                <div class="cursor-pointer hover:translate-y-4 transition-all">
+                    <img src="/image/seo.png" alt="seo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--contact-->
+    <section id="contact" class="h-screen ml-16 p-4 pl-5">
+        <div class="h-full flex flex-col justify-center items-center gap-6 text-center">
+            <div class="flex flex-col items-center gap-4">
+                <img class="w-32 md:w-52 transition-all" src="/image/contact.png" alt="contact">
+                <h2 class="text-2xl md:text-5xl transition-all font-bold text-white">LET'S TALK</h2>
+            </div>
+            <div class="flex flex-col justify-between items-center gap-4 m-4 w-[90%]">
+                <div class="flex flex-col gap-4 md:flex-row">
+
+                    <input class="text-white text-md md:text-2xl transition-all  py-2 bg-transparent placeholder:text-white outline-none  border-b-2" type="text" placeholder="What's Yor Name"><br>
+
+                    <input class="text-white text-md md:text-2xl transition-all  py-2 bg-transparent placeholder:text-white outline-none  border-b-2 invalid:text-red-400" type="email" name="email" id="email" placeholder="Your E-mail" required>
+                </div>
+                <div class="pt-4">
+                    <input class="text-white text-md md:text-2xl transition-all  py-2 bg-transparent placeholder:text-white outline-none  border-b-2 " type="text" placeholder="Tell Us About Your Project">
+                </div>
+            </div>
+            <button class="px-6 pt-1 pb-2 bg-sky-700 text-sm text-white rounded-xl focus:bg-sky-500">send Message</button>
+
+            <span class="h-px w-[100%] bg-teal-50"></span>
+
+            <ul class="flex felx-row gap-6 text-white">
+                <li class="cursor-pointer text-2xl md:text-3xl hover:translate-y-2 transition-all">
+                    <i class="fa-brands fa-github"></i>
+                </li>
+                <li class="cursor-pointer text-2xl md:text-3xl hover:translate-y-2 transition-all">
+                    <i class="fa-brands fa-linkedin"></i>
+                </li>
+                <li class="cursor-pointer text-2xl md:text-3xl hover:translate-y-2 transition-all">
+                    <i class="fa-brands fa-facebook"></i>
+                </li>
+                <li class="cursor-pointer text-2xl md:text-3xl hover:translate-y-2 transition-all">
+                    <i class="fa-brands fa-instagram"></i>
+                </li>
+            </ul>
+            
+
+        </div>
+    </section>
+
+</body>
+</html>
